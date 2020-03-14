@@ -228,7 +228,7 @@ void buscarDatos(Control *lista, string no,int mati, string mate, float c1, floa
 	}
 	if(band==true){
 		
-		gotoxy(10,9);cout<<"Nombre: "<<no<<endl;
+		gotoxy(10,10);cout<<"Nombre: "<<no<<endl;
 		gotoxy(10,11);cout<<"Matricula: "<<mati<<endl;
 		gotoxy(10,13);cout<<"Materia: "<<mate<<endl;
 		gotoxy(10,15);cout<<"Calificacion1: "<<c1<<endl;
