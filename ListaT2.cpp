@@ -21,6 +21,7 @@ void insertarDatos(Control *&, string,int,string,float,float,float,float);
 void mostrarDatos(Control *);
 void buscarDatos(Control *,string,int,string,float,float,float,float);
 void eliminarDato(Control *&, string);
+void eliminarLista(Control *&,string,int,string,float,float,float,float);
 
 main(){
 	Control *lista=NULL;
