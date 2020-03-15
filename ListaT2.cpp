@@ -190,7 +190,7 @@ void mostrarDatos(Control *lista){
 		cout<<actual->Materia<<" , ";
 		cout<<actual->Calificacion1<<" , ";
 		cout<<actual->Calificacion2<<" , ";	
-		cout<<actual->Calificacion4<<" , ";	
+		cout<<actual->Calificacion3<<" , ";	
 		cout<<actual->Promedio<<" , "<<endl;			
 		actual=actual->sig;
 	}
