@@ -267,7 +267,7 @@ void eliminarDato(Control *&lista,string no ){
 		}	
 	}
 }
-void eliminarLista(Control *&lista, string &no,string &mate,float &c1, float &c2, float &c3, float &tot){
+void eliminarLista(Control *&lista, string &no,int &mati, string &mate,float &c1, float &c2, float &c3, float &tot){
 	Control *aux=lista;
 	no=aux->Nombre;
 	mati=aux->Matricula;
