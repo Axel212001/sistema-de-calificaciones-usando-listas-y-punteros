@@ -163,6 +163,7 @@ void insertarDatos(Control *&lista, string no,int mati,string mate,float c1,floa
 	nuevoNodo->Calificacion1=c1;
 	nuevoNodo->Calificacion2=c2;
 	nuevoNodo->Calificacion3=c3;
+	nuevoNodo->Promedio=tot;
 	Control *aux1=lista;
 	Control *aux2;
 	while((aux1 !=NULL)&&(aux1->Nombre<no)&&(aux1->Matricula<mati)&&(aux1->Materia<mate)&&(aux1->Calificacion1<c1)
